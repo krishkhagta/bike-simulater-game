@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Simulator Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Game Overlay for Information -->
+  <div class="overlay">
+    <h1>Game by Krish Khagta</h1>
+    <button id="startBtn">Start Game</button>
+  </div>
+
+  <!-- Lobby with Bike Selection -->
+  <div class="lobby">
+    <h2>Choose Your Bike</h2>
+    <div class="bikes">
+      <div class="bike" data-speed="60">Bike 1 (Speed: 60)</div>
+      <div class="bike" data-speed="80">Bike 2 (Speed: 80)</div>
+      <div class="bike" data-speed="100">Bike 3 (Speed: 100)</div>
+      <div class="bike" data-speed="120">Bike 4 (Speed: 120)</div>
+      <!-- Add more bikes as needed -->
+    </div>
+    <button id="enterGame">Enter Game</button>
+  </div>
+
+  <!-- Game Canvas -->
+  <div id="gameArea">
+    <canvas id="gameCanvas"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
